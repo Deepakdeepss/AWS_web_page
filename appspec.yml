@@ -5,8 +5,8 @@ files:
     destination: /var/www/html/
   - source: style.css
     destination: /var/www/html/
-  - source: image/**
-    destination: /var/www/html/
+  - source: image/
+    destination: /var/www/html/image/
 
 hooks:
   BeforeInstall:
