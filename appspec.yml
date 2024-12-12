@@ -19,6 +19,9 @@ hooks:
     - location: scripts/debug_archive.sh
       timeout: 300
       runas: root
+    - location: scripts/check_image_folder.sh  # New script to ensure the image folder exists
+      timeout: 300
+      runas: root
   ApplicationStop:
     - location: scripts/stop_server.sh
       timeout: 300
